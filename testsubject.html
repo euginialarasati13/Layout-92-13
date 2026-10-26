@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /* Row layout to space items evenly */
+    .image-row {
+      display: flex;
+      justify-content: space-between; /* Pushes items to left, center, and right */
+      align-items: center;           /* Centers them vertically */
+      width: 100%;
+    }
+
+    /* Container for each image to control width */
+    .image-container {
+      width: 30%; /* Gives each image equal space */
+      text-align: center;
+    }
+
+    /* Target left and right specifically if needed */
+    .image-container.left { text-align: left; }
+    .image-container.right { text-align: right; }
+
+    /* Hover effects */
+    .hover-img {
+      width: 100%;       /* Makes image responsive to container */
+      max-width: 250px;  /* Limits maximum size */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .hover-img:hover {
+      transform: scale(1.1); /* Zooms in slightly */
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Adds a subtle shadow */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-row">
+    <!-- Left Image -->
+    <div class="image-container left">
+      <img src="AyamGoreng.jpg" alt="Left" class="hover-img">
+    </div>
+    
+    <!-- Center Image -->
+    <div class="image-container">
+      <img src="FrenchFries.jpg" alt="Center" class="hover-img">
+    </div>
+    
+    <!-- Right Image -->
+    <div class="image-container right">
+      <img src="frutiger.jpg" alt="Right" class="hover-img">
+    </div>
+  </div>
+
+</body>
+</html>

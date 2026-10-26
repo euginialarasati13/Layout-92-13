@@ -1,0 +1,33 @@
+/* eksternal css */
+body{
+    background-color: azure
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hotpink;
+    text-align: center
+}
+p{
+    color: darkviolet;
+    font-size: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p.a{text-align: right;}
+p.b{text-align: center;}
+p.c{text-align: left;}
+h2{text-decoration: line-through;
+text-decoration-color: blue;
+text-decoration-style:dashed;
+}
+h3{text-decoration: overline;
+text-decoration-color: chartreuse;
+text-decoration-style:dotted;
+}
+h4{text-decoration: overline underline;
+text-decoration-color: blueviolet;
+text-decoration-style:double;
+}
+p.ou{text-decoration:overline underline;
+text-decoration-color: goldenrod;
+text-decoration-style:wavy;
+}

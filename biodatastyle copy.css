@@ -1,0 +1,40 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/bf/e8/3d/bfe83d7e5cff2ff6c26e2000d2eb0499.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    background-color: rgb(255, 8, 144);
+}
+h1{background-color: bisque;
+color: mediumorchid }
+
+img.photo{
+    width: 10px;
+    height: 10px;
+    
+}
+div.Info{
+    background-color: antiquewhite;
+    width: 500px;
+    border-radius: 20%;
+    border: 3px solid rgb(163, 10, 97)
+}
+
+img.makan{
+    width: 200px;
+    height: 200px;
+}
+
+div.makan:hover{
+    height: 200px;
+    width: 200px;
+    background-color:darkgray (0, 0, 0);
+    box-shadow: 15px 15px 15px 15px rgb(218, 7, 144);
+    border-radius: 20%;
+}
+div.makan img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
